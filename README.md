@@ -50,7 +50,7 @@ First we organized the component structure for the mobile design and we added th
 
 ### What I learned
 
-- To use an image on the component with jsx extension you must import it.
+- To use an image on the component with jsx extension, you must import it.
 
 ```
     import music from './images/icon-music.svg';

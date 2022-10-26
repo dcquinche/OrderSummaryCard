@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('./components/OrderSummary/images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  
+}
+
+@media (min-width: 1440px){
+  body {
+    background-image: url('./components/OrderSummary/images/pattern-background-desktop.svg');
+  }
+}

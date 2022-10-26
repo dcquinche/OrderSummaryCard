@@ -1,0 +1,106 @@
+#container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 330px;
+}
+
+#hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#price2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    width: 90%;
+    padding: 1em;
+    font-size: 13px;
+}
+
+#marginPrice {
+    margin-left: 3em;
+    color: hsl(245, 75%, 52%);
+}
+
+#link {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: #8a4bff;
+    text-decoration: none;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#text, #price, #buttons {
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+.divPrice {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+button {
+    padding: 1em;
+    border-radius: 15px;
+    border: 0;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#btn1 {
+    margin-top: 1em;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+#btn1:hover {
+    background-color: #8a4bff;
+}
+
+#btn2 {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+#btn2:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+h1, h3 {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+@media (min-width: 1440px){
+    #container {
+        width: 400px;
+    }
+}

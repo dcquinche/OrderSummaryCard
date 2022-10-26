@@ -58,7 +58,7 @@ First we organized the component structure for the mobile design and we added th
 ```
 
 ```
-    <img id='hero' alt='hero' src={hero}/>
+    <img id='music' alt='music' src={music}/>
 
 ```
 
